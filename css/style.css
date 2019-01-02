@@ -9551,9 +9551,30 @@ body section#card div.container-fluid {
 }
 body section#card div.container-fluid div.card {
   padding: 0.5rem;
+  background-color: #e0dede;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+body section#card div.container-fluid div.card i {
+  background-color: #455cbd;
+  color: #eeebeb;
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  margin-top: 1.5rem;
 }
 body section#card div.container-fluid div.card p {
-  font-size: 9px;
+  font-size: 11px;
+  color: #878787;
+}
+body section#card div.container-fluid div.card p.pbl {
+  color: #0c9ad0;
+  font-size: 12px;
+}
+body section#card div.container-fluid div#lor p {
+  font-size: 11px;
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */
