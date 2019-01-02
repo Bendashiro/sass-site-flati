@@ -9566,15 +9566,42 @@ body section#card div.container-fluid div.card i {
 }
 body section#card div.container-fluid div.card p {
   font-size: 11px;
-  color: #878787;
+  color: #848484;
 }
 body section#card div.container-fluid div.card p.pbl {
   color: #0c9ad0;
   font-size: 12px;
 }
-body section#card div.container-fluid div#lor p {
-  font-size: 11px;
+body section#card div.container-fluid div#lor {
   text-align: left;
+  max-width: 35% !important;
+}
+body section#card div.container-fluid div#lor h4 {
+  color: #848484;
+  font-weight: bolder;
+}
+body section#card div.container-fluid div#lor p {
+  font-size: 12px;
+  color: #848484;
+}
+body section#card div.container-fluid div#lor p.bo {
+  color: #797979;
+}
+body section#card div.container-fluid div#imf {
+  margin-left: 64px;
+}
+body section#card div.container-fluid div#imf div.bgc {
+  background-color: #3e4562;
+  padding: 0 0 5px 0;
+  border: transparent;
+  margin-left: 3px;
+}
+body section#card div.container-fluid div#imf img {
+  width: 175px;
+  height: 116px;
+}
+body section#card div.container-fluid div#imf h5 {
+  color: #cfcfd6;
 }
 
 /*# sourceMappingURL=style.css.map */
