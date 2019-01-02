@@ -1,0 +1,38 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
+
+body
+    //header.grad //la class aui se rapporte au header s'écrit au meme étage que le header
+    //  background: linear-gradient(to right, rgb(30,107,184), rgb(21,153,87))//
+    header
+        background-image: url('../images/bg-header.png')
+        height: 450px
+        nav.bgn
+            background-color: rgb(60,60,75)
+        nav
+            a
+                color: rgb(156,156,189)
+                margin-right: 10px
+            a.active
+                background-color: rgb(69,92,189) !important
+                color: rgb(255,255,255) !important
+                padding-bottom: 13px !important
+                border-radius: 0.25rem 0.25rem 0 0 !important
+    section#buzz
+        padding: 2rem 0
+        background-color: rgb(230,230,221)
+        p
+            color: rgb(130,138,148)
+            span#sp1
+                color: white
+                background-color: rgb(0,151,208)
+            span#sp2
+                color: rgb(0,151,208)
+                font-weight: bolder
+    section#card
+        background-color: rgb(239,237,241)
+        div.container-fluid
+            max-width: 960px
+            div.card
+                padding: 0.5rem
+                p
+                    font-size: 9px
